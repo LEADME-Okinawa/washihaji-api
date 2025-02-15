@@ -7,7 +7,6 @@ use axum::{
 use bigdecimal::{BigDecimal, ToPrimitive};
 use dotenvy::dotenv;
 use serde::Deserialize;
-use serde_json::json;
 use tower::ServiceBuilder;
 use tower_http::{trace::TraceLayer, BoxError};
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
